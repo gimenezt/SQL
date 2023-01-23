@@ -1,12 +1,12 @@
 SET LANGUAGE Portuguese
 
-DECLARE @ID	AS INT 
+DECLARE @ID AS int
 SET @ID = id
 
 --------------------------------------- NPR
 
-DECLARE @NPR_key as int 
-set @NPR_key = (SELECT NPR_key FROM [dbo].[fact_lake] WHERE id = @ID)
+DECLARE @NPR_key AS int
+SET @NPR_key = (SELECT NPR_key FROM [dbo].[fact_lake] WHERE id = @ID)
 
 UPDATE dim_NPR
 SET    NPR_severity = NPR_severity 
@@ -17,8 +17,8 @@ WHERE id = @NPR_key
 
 --------------------------------------- MANAGEMENT
 
-DECLARE @management_key as int 
-set @management_key = (SELECT management_key FROM [dbo].[fact_lake] WHERE id = @ID)
+DECLARE @management_key AS int
+SET @management_key = (SELECT management_key FROM [dbo].[fact_lake] WHERE id = @ID)
 
 UPDATE dim_management
 SET     last_edit_date = GETDATE()
@@ -32,10 +32,10 @@ WHERE id =  @ID
 
 ------------------------------------------ RISK
 
-DECLARE @risk_key AS INT 
-set @risk_key = (SELECT risk_key FROM [dbo].[fact_lake] WHERE id = @ID)
+DECLARE @risk_key AS int
+SET @risk_key = (SELECT risk_key FROM [dbo].[fact_lake] WHERE id = @ID)
 
-DECLARE @component_code AS INT
+DECLARE @component_code AS int
 SET @component_code = (SELECT component_code FROM [dbo].[standard_component] WHERE id = :component_key)
 
 UPDATE dim_risk
