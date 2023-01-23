@@ -21,13 +21,13 @@ DECLARE @management_key as int
 set @management_key = (SELECT management_key FROM [dbo].[fact_lake] WHERE id = @ID)
 
 UPDATE dim_management
-SET   last_edit_date = GETDATE()
-	    ,last_edit_user =  :user 
+SET     last_edit_date = GETDATE()
+	,last_edit_user =  :user 
 WHERE id = @management_key
 
 ------------------------------------------ MAP
 
-UPDATE fact_lake SET map_key =  :station_description 
+UPDATE fact_lake SET map_key =  station_description 
 WHERE id =  @ID
 
 ------------------------------------------ RISK
