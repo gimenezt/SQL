@@ -45,7 +45,7 @@ SET @UpdateSTA = CONCAT('DECLARE @NPR_key as int
 DECLARE @UpdateLTA varchar(MAX)
 SET @UpdateLTA = CONCAT('DECLARE @NPR_key as int
 					SET @NPR_key = (SELECT NPR_key FROM fact_lake WHERE id =', :id, ')',
-					' UPDATE dim_NPR SET LTA_severity =',	:severity,
+					' UPDATE dim_NPR SET LTA_severity =',			severity,
 					', LTA_occurrence =', 					occurrence,
 					', LTA_detection =', 					detection,
 					', NPR_LTA =', 						NPR,
