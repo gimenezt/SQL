@@ -117,90 +117,90 @@ for count in value:
 
         area = 		{ "value": count['Area'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                                 "borderBottomStyle": "none",
-                                   "borderLeftColor": "#CDD1DB",
-                                   "borderLeftStyle": "none",
-                                   "borderRightColor": "#CDD1DB",
-                                   "borderRightStyle": "solid",
-                                   "borderRightWidth": 2,
-                                   "borderTopStyle": "none"}
+                                  "borderBottomStyle": "none",
+                                  "borderLeftColor": "#CDD1DB",
+                                  "borderLeftStyle": "none",
+                                  "borderRightColor": "#CDD1DB",
+                                  "borderRightStyle": "solid",
+                                  "borderRightWidth": 2,
+                                  "borderTopStyle": "none"}
                                 }
 
         function =	{ "value": count['Funcao'],
                                  "style":{"backgroundColor" : "{}".format('#00000000'),
                                  "borderBottomStyle": "none",
-                             "borderLeftColor": "#CDD1DB",
-                             "borderLeftStyle": "none",
-                             "borderRightColor": "#CDD1DB",
-                             "borderRightStyle": "solid",
-                             "borderRightWidth": 2,
-                             "borderTopStyle": "none"}
+			     	 "borderLeftColor": "#CDD1DB",
+			     	 "borderLeftStyle": "none",
+			    	 "borderRightColor": "#CDD1DB",
+			    	 "borderRightStyle": "solid",
+			   	 "borderRightWidth": 2,
+			    	 "borderTopStyle": "none"}
                                 }
 
         stretch =	{ "value": count['Trecho'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
                                   "borderBottomStyle": "none",
-                             "borderLeftColor": "#CDD1DB",
-                             "borderLeftStyle": "none",
-                             "borderRightColor": "#CDD1DB",
-                             "borderRightStyle": "solid",
-                             "borderRightWidth": 2,
-                             "borderTopStyle": "none"}
+                             	  "borderLeftColor": "#CDD1DB",
+                            	  "borderLeftStyle": "none",
+                           	  "borderRightColor": "#CDD1DB",
+                            	  "borderRightStyle": "solid",
+                            	  "borderRightWidth": 2,
+                            	  "borderTopStyle": "none"}
                                 }
 
         doctype =	{ "value": count['TipoDocumento'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
                                   "borderBottomStyle": "none",
-                             "borderLeftColor": "#CDD1DB",
-                             "borderLeftStyle": "none",
-                             "borderRightColor": "#CDD1DB",
-                             "borderRightStyle": "solid",
-                             "borderRightWidth": 2,
-                             "borderTopStyle": "none"}
+                             	  "borderLeftColor": "#CDD1DB",
+                           	  "borderLeftStyle": "none",
+                          	  "borderRightColor": "#CDD1DB",
+                           	  "borderRightStyle": "solid",
+                           	  "borderRightWidth": 2,
+                           	  "borderTopStyle": "none"}
                                 }
 
         docnum =	{ "value": count['NumDocumento'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
                                   "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         priority =	{ "value": count['Priorizacao'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
                                   "borderBottomStyle": "none",
-                              "borderLeftColor": "#CDD1DB",
-                              "borderLeftStyle": "none",
-                              "borderRightColor": "#CDD1DB",
-                              "borderRightStyle": "solid",
-                              "borderRightWidth": 2,
-                              "borderTopStyle": "none"}
+                           	  "borderLeftColor": "#CDD1DB",
+                            	  "borderLeftStyle": "none",
+                           	  "borderRightColor": "#CDD1DB",
+                           	  "borderRightStyle": "solid",
+                            	  "borderRightWidth": 2,
+                            	  "borderTopStyle": "none"}
                                   }
 
         item = 		{ "value": count['Item'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                         	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         comp = 		{ "value": count['Componente'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         detail = 	{ "value": count['Detalhe'],
@@ -216,119 +216,116 @@ for count in value:
 
         local = 	{ "value": count['Local'],
                                   "style":{ "backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                       		  "borderTopStyle": "none"}
                                 }
 
         requir = 	{ "value": count['Requisito'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                         	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                       		  "borderRightColor": "#CDD1DB",
+                       		  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         defect =	{ "value": count['ModoFalha'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                       		  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         effect = 	{ "value": count['Efeito'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         cause = 	{ "value": count['Causa'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                        	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                        	  "borderTopStyle": "none"}
                                 }
 
         cod_aud =	{ "value": count['CODAUD'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "none",
-                          "borderRightColor": "#CDD1DB",
-                          "borderRightStyle": "solid",
-                          "borderRightWidth": 2,
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightColor": "#CDD1DB",
+                       	 	  "borderRightStyle": "solid",
+                        	  "borderRightWidth": 2,
+                       		  "borderTopStyle": "none"}
                                 }
 
         control = 	{ "value": count['Controle'],
                                   "style":{"backgroundColor" : "{}".format('#00000000'),
-                          "borderBottomStyle": "none",
-                          "borderLeftStyle": "none",
-                          "borderRightStyle": "none",
-                          "borderTopStyle": "none"}
+                       		  "borderBottomStyle": "none",
+                        	  "borderLeftStyle": "none",
+                        	  "borderRightStyle": "none",
+                        	  "borderTopStyle": "none"}
                                 }
 
         npr = 		{ "value": count['NPR'],
                                   "style":{"backgroundColor" : "{}".format(corNPR),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "solid",
-                          "borderLeftWidth": 1.5,
-                          "borderRightStyle": "none",
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "solid",
+                        	  "borderLeftWidth": 1.5,
+                        	  "borderRightStyle": "none",
+                        	  "borderTopStyle": "none"}
                                 }
 
         nprsta = 	{ "value": count['NPRSTA'],
                                   "style":{"backgroundColor" : "{}".format(corSTA),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "solid",
-                          "borderLeftWidth": 1.5,
-                          "borderRightStyle": "none",
-                          "borderTopStyle": "none"}
+                        	  "borderBottomStyle": "none",
+                        	  "borderLeftColor": "#CDD1DB",
+                        	  "borderLeftStyle": "solid",
+                        	  "borderLeftWidth": 1.5,
+                        	  "borderRightStyle": "none",
+                       	 	  "borderTopStyle": "none"}
                                 }
 
         nprlta = 	{ "value": count['NPRLTA'],
                                   "style":{"backgroundColor" : "{}".format(corLTA),
-                          "borderBottomStyle": "none",
-                          "borderLeftColor": "#CDD1DB",
-                          "borderLeftStyle": "solid",
-                          "borderLeftWidth": 1.5,
-                          "borderRightStyle": "none",
-                          "borderTopStyle": "none"}
+                       		  "borderBottomStyle": "none",
+                       		  "borderLeftColor": "#CDD1DB",
+                       		  "borderLeftStyle": "solid",
+                        	  "borderLeftWidth": 1.5,
+                        	  "borderRightStyle": "none",
+                        	  "borderTopStyle": "none"}
                                 }
 
         aprovlid =  { "value": count['aprovLid'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000')}
-                                }
+                                  "style":{"backgroundColor" : "{}".format('#00000000')}}
 
         cong = 		{"value": count['cong'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000')}
-                                }
+                                  "style":{"backgroundColor" : "{}".format('#00000000')}}
 
         statuslta =	{"value": count['StatusLTA'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000')}
-                                }
+                                  "style":{"backgroundColor" : "{}".format('#00000000')}}
 
         result.append({'ID':id, 'Date':date, 'Fabrica': workshop, 'Area': area, 'Funcao':function, 'Trecho':stretch, 'TipoDocumento':doctype,
                                 'NumDocumento':docnum, 'Priorizacao':priority, 'Item': item, 'Componente': comp, 'Detalhe':detail,
