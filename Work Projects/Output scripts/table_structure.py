@@ -83,8 +83,7 @@ for count in value:
 
 
         id = 		{ "value": count['ID'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                                    "borderLeftStyle": "none",
                                    "borderRightColor": "#CDD1DB",
                                    "borderRightStyle": "solid",
@@ -94,8 +93,7 @@ for count in value:
                                 }
 
         date = 		{ "value": count['Date'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                                    "borderLeftColor": "#CDD1DB",
                                    "borderLeftStyle": "none",
                                    "borderRightColor": "#CDD1DB",
@@ -105,8 +103,7 @@ for count in value:
                                 }
 
         workshop =	{ "value": count['Fabrica'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                                    "borderLeftColor": "#CDD1DB",
                                    "borderLeftStyle": "none",
                                    "borderRightColor": "#CDD1DB",
@@ -116,8 +113,7 @@ for count in value:
                                 }
 
         area = 		{ "value": count['Area'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                                   "borderLeftColor": "#CDD1DB",
                                   "borderLeftStyle": "none",
                                   "borderRightColor": "#CDD1DB",
@@ -127,8 +123,7 @@ for count in value:
                                 }
 
         function =	{ "value": count['Funcao'],
-                                 "style":{"backgroundColor" : "{}".format('#00000000'),
-                                 "borderBottomStyle": "none",
+                                 "style":{"borderBottomStyle": "none",
 			     	 "borderLeftColor": "#CDD1DB",
 			     	 "borderLeftStyle": "none",
 			    	 "borderRightColor": "#CDD1DB",
@@ -138,8 +133,7 @@ for count in value:
                                 }
 
         stretch =	{ "value": count['Trecho'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                              	  "borderLeftColor": "#CDD1DB",
                             	  "borderLeftStyle": "none",
                            	  "borderRightColor": "#CDD1DB",
@@ -149,8 +143,7 @@ for count in value:
                                 }
 
         doctype =	{ "value": count['TipoDocumento'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                              	  "borderLeftColor": "#CDD1DB",
                            	  "borderLeftStyle": "none",
                           	  "borderRightColor": "#CDD1DB",
@@ -160,8 +153,7 @@ for count in value:
                                 }
 
         docnum =	{ "value": count['NumDocumento'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -171,8 +163,7 @@ for count in value:
                                 }
 
         priority =	{ "value": count['Priorizacao'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                            	  "borderLeftColor": "#CDD1DB",
                             	  "borderLeftStyle": "none",
                            	  "borderRightColor": "#CDD1DB",
@@ -182,8 +173,7 @@ for count in value:
                                   }
 
         item = 		{ "value": count['Item'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                         	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -193,8 +183,7 @@ for count in value:
                                 }
 
         comp = 		{ "value": count['Componente'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                        	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -204,8 +193,7 @@ for count in value:
                                 }
 
         detail = 	{ "value": count['Detalhe'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                                  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                                   "borderLeftColor": "#CDD1DB",
                                   "borderLeftStyle": "none",
                                   "borderRightColor": "#CDD1DB",
@@ -215,8 +203,7 @@ for count in value:
                                 }
 
         local = 	{ "value": count['Local'],
-                                  "style":{ "backgroundColor" : "{}".format('#00000000'),
-                        	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -226,8 +213,7 @@ for count in value:
                                 }
 
         requir = 	{ "value": count['Requisito'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                         	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                        		  "borderRightColor": "#CDD1DB",
@@ -237,8 +223,7 @@ for count in value:
                                 }
 
         defect =	{ "value": count['ModoFalha'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                        	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                        		  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -248,8 +233,7 @@ for count in value:
                                 }
 
         effect = 	{ "value": count['Efeito'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                        	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -259,8 +243,7 @@ for count in value:
                                 }
 
         cause = 	{ "value": count['Causa'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                        	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -270,8 +253,7 @@ for count in value:
                                 }
 
         cod_aud =	{ "value": count['CODAUD'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                        	  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftColor": "#CDD1DB",
                         	  "borderLeftStyle": "none",
                         	  "borderRightColor": "#CDD1DB",
@@ -281,8 +263,7 @@ for count in value:
                                 }
 
         control = 	{ "value": count['Controle'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000'),
-                       		  "borderBottomStyle": "none",
+                                  "style":{"borderBottomStyle": "none",
                         	  "borderLeftStyle": "none",
                         	  "borderRightStyle": "none",
                         	  "borderTopStyle": "none"}
@@ -318,14 +299,11 @@ for count in value:
                         	  "borderTopStyle": "none"}
                                 }
 
-        aprovlid =  { "value": count['aprovLid'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000')}}
+        aprovlid =  	{ "value": count['aprovLid']}
 
-        cong = 		{"value": count['cong'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000')}}
+        cong = 		{"value": count['cong']}
 
-        statuslta =	{"value": count['StatusLTA'],
-                                  "style":{"backgroundColor" : "{}".format('#00000000')}}
+        statuslta =	{"value": count['StatusLTA']}
 
         result.append({'ID':id, 'Date':date, 'Fabrica': workshop, 'Area': area, 'Funcao':function, 'Trecho':stretch, 'TipoDocumento':doctype,
                                 'NumDocumento':docnum, 'Priorizacao':priority, 'Item': item, 'Componente': comp, 'Detalhe':detail,
