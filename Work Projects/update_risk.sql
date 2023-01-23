@@ -21,8 +21,8 @@ DECLARE @management_key AS int
 SET @management_key = (SELECT management_key FROM [dbo].[fact_lake] WHERE id = @ID)
 
 UPDATE dim_management
-SET     last_edit_date = GETDATE()
-	,last_edit_user =  :user 
+SET      last_edit_date = GETDATE()
+	,last_edit_user = user 
 WHERE id = @management_key
 
 ------------------------------------------ MAP
