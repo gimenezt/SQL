@@ -5,7 +5,7 @@ SET @SELECT_QUERY =  SELECT_QUERY
 
 -- Quando o usuário estiver cadastrando um novo um STA/LTA, deve ser salvo na dim_management o usuário de criação
 DECLARE @CadManagement varchar(MAX)
-SET @CadManagement = CONCAT(' DECLARE @management_key as int
+SET @CadManagement = CONCAT('DECLARE @management_key as int
 					SET @management_key = (SELECT management_key FROM fact_lake WHERE id =', :id, ') ',
 					' UPDATE dim_management
 					SET user_input_STALTA =',				CHAR(39), user, CHAR(39),
@@ -13,7 +13,7 @@ SET @CadManagement = CONCAT(' DECLARE @management_key as int
 
 -- Quando o usuário estiver editando um STA/LTA existente, deve ser salvo na dim_management o usuário de quem edita, assim como a adata da edição
 DECLARE @EditManagement varchar(MAX)
-SET @EditManagement = CONCAT(' DECLARE @management_key as int
+SET @EditManagement = CONCAT('DECLARE @management_key as int
 					SET @management_key = (SELECT management_key FROM fact_lake WHERE id =', :id, ') ',
 					' UPDATE dim_management
 					SET last_edit_date = ',					CHAR(39), GETDATE(), CHAR(39), 
